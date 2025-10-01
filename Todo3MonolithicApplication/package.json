@@ -1,0 +1,23 @@
+{
+  "name": "todo3-monolithic-application",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "BROWSER=none HOST=0.0.0.0 PORT=3000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --config ./jest.config.json",
+    "lint": "eslint . --ext .js,.jsx",
+    "lint:ci": "eslint . --ext .js,.jsx"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "jest": "29.6.1",
+    "react-test-renderer": "18.2.0",
+    "jest-environment-jsdom": "29.6.1",
+    "serve": "14.1.2"
+  }
+}
